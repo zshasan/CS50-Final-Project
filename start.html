@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+        <link href="start.css" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Yatra One' rel='stylesheet'>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <title>Start Page</title>
+    </head>
+    <body>
+      <h1>The Quest For Khazana</h1>
+      <br />
+      <div id="video-carousel-example" class="carousel slide carousel-fade" data-ride="carousel">
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active">
+            <!--Mask color-->
+              <div class="view">
+                <!--Video source-->
+                <video class="fullsize" autoplay loop muted>
+                  <source src="fire.mp4" type="video/mp4" />
+                </video>
+                <div class="mask rgba-indigo-light"></div>
+              </div>
+            <div class="carousel-caption">
+              <div class="animated fadeInDown">
+                <div class="row bottom-padding">
+                  <div class="col-6 col-md-4"></div>
+                  <div class="col-6 col-md-4" id="borderimg3">
+                    <div class="text-center">
+                      <h2><a href="Panel1.html">START</a></h2>
+                      <br />
+                      <br />
+                      <h2><a href="#" data-toggle="popover" data-placement="right" data-content="- Begin by pressing START -> A story panel will appear and two choices underneath -> Make your choice and you are then directed to the next story panel -> You may hit a bad ending with your choices. In that case, please go to the starting screen and begin again -> There is one good ending -> ENJOY!!">Manual</a></h2>
+                      <br />
+                      <br />
+                      <h2><a href="Credits.html">Credits</a></h2>
+                    </div>
+                  </div>
+                  <div class="col-6 col-md-4"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+
+
+        <nav class="navbar navbar-light" style="background-color: black;">
+          <div class="col-4-sm-3">
+            <h6 style="text-decoration: underline;">&#169 2020 Zaheer Hasan Inc.</h6>
+          </div>
+          <div class="col-4-sm-3">
+            <button type="button" class="btn btn-warning"><a href="start.html">&#128332</button>
+          </div>
+          <div class="col-4-sm-3">
+            <audio controls loop autoplay>
+              <!--Ray Of Hope by JayJen | https://soundcloud.com/jayjenmusic Music promoted by https://www.free-stock-music.comCreative Commons Attribution 3.0 Unported License https://creativecommons.org/licenses/by/3.0/deed.en_US-->
+              <source src="audio/jayjen-ray-of-hope.mp3" type="audio/mpeg">
+            </audio>
+          </form>
+        </nav>
+
+        <script>
+          $(document).ready(function(){
+            $('[data-toggle="popover"]').popover();
+          });
+        </script>
+        <script>
+          $(function () {
+            $('.example-popover').popover({container: 'body'});
+          });
+        </script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </body>
+</html>

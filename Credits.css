@@ -1,0 +1,71 @@
+body {
+     background-color: black;
+}
+
+h1 {
+  background-color: black;
+  color:  gold;
+  font-style: italic;
+  font-family: 'Yatra One';
+  text-align: center;
+  text-shadow: 2px 2px 9px white;
+}
+
+h3 {
+  color:  gold;
+  font-style: italic;
+  font-family: 'Yatra One';
+  text-align: center;
+}
+
+h6 {
+  color:  gold;
+  font-style: italic;
+  font-family: 'Yatra One';
+}
+
+.container {
+  position: relative;
+  width: 30%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+img {
+  border: 10px solid transparent;
+  padding: 1px;
+  border-image: url(images/gold-frame.png) 20% round;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: black;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: gold;
+  font-size: 20px;
+  font-style: italic;
+  font-family: 'Yatra One';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
